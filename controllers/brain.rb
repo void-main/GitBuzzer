@@ -6,6 +6,9 @@ require_relative './filter'
 
 class BuzzerBrain
   def self.trigger commit_info
+    puts 'Got commit info'
+    puts commit_info
+    puts 'FakeFunction'
     # Step1. Grab the registered repo according to the commit info
     # Step2. Go through filter to decide whether buzzer should buzz
     fake_function =<<EOF
