@@ -25,6 +25,7 @@ class BuzzerBrain
     }
 EOF
 
+    puts fake_function
     filter = Filters::JSFilter.new fake_function
     puts filter.should_buzz? commit_info
 
