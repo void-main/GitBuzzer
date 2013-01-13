@@ -6,7 +6,6 @@ require_relative './filter'
 
 class BuzzerBrain
   def self.trigger commit_info
-    puts commit_info
     # Step1. Grab the registered repo according to the commit info
     # Step2. Go through filter to decide whether buzzer should buzz
     fake_function =<<EOF
@@ -26,12 +25,8 @@ class BuzzerBrain
     }
 EOF
 
-    puts 'got here!!!'
     filter = Filters::JSFilter.new fake_function
-    puts 'before should buzz...'
     puts filter.should_buzz? commit_info
-    puts 'after should buzz...'
-
     # Step3. When needed, buzz it!
   end
 end

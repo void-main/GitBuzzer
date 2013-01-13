@@ -3,3 +3,4 @@ require 'sinatra/contrib'
 
 require_relative 'routes/git_hook'
 
+$stdout.sync = true

@@ -23,7 +23,6 @@ module Filters
 
     # The JS file should contain a function named "main"
     def should_buzz? commit_info
-      puts commit_info
       @executor.main commit_info
     end
   end

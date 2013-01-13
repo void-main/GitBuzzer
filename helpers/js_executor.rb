@@ -13,8 +13,6 @@ class JSExecutor
   end
 
   def execute entry, argument # should be a single object
-    puts entry
-    puts argument
     @context['arg'] = argument
     js_code = "#{entry}(arg)"
     @context.eval(js_code)
