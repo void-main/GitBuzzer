@@ -26,6 +26,7 @@ class BuzzerBrain
     }
 EOF
 
+    puts 'got here!!!'
     filter = Filters::JSFilter.new fake_function
     puts 'before should buzz...'
     puts filter.should_buzz? commit_info
