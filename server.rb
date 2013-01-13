@@ -1,5 +1,5 @@
 require 'sinatra'
 require 'sinatra/contrib'
 
-require './routes/git_hook.rb'
+require_relative 'routes/git_hook'
 
