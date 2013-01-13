@@ -26,7 +26,11 @@ class BuzzerBrain
 EOF
 
     filter = Filters::JSFilter.new fake_function
-    puts filter.should_buzz? commit_info
+    buzz_flag = filter.should_buzz? commit_info
+
     # Step3. When needed, buzz it!
+    if buzz_flag
+      # ZZZZZZZ!
+    end
   end
 end
