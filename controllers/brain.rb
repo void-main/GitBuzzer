@@ -27,7 +27,9 @@ class BuzzerBrain
 EOF
 
     filter = Filters::JSFilter.new fake_function
+    puts 'before should buzz...'
     puts filter.should_buzz? commit_info
+    puts 'after should buzz...'
 
     # Step3. When needed, buzz it!
   end
