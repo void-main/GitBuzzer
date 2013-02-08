@@ -11,8 +11,6 @@
 #
 # You may have noticed that the first type of filters are converted to the
 # second type.
-require_relative '../helpers/js_executor'
-
 module Filters
 
   class JSFilter

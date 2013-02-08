@@ -30,7 +30,7 @@ EOF
 
     # Step3. When needed, buzz it!
     if buzz_flag
-      # ZZZZZZZ!
+      # Ding!
     end
   end
 end

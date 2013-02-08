@@ -1,5 +1,5 @@
 require 'sinatra'
 require 'sinatra/contrib'
 
-require_relative 'routes/git_hook'
-
+Dir[File.dirname(__FILE__) + "/routes/*.rb"].each { |route_file| require route_file }
+Dir[File.dirname(__FILE__) + "/helpers/*.rb"].each { |helper_file| require helper_file }
