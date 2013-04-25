@@ -10,7 +10,7 @@ Well, you are the owner of your pages, so you can decide what the major change i
 
 ## To whom can I share?
 
-Basically, your friends on SNS. Since I'm in China, I will start by supporting two major Chinese service providers, namely "RenRen" and "Weibo". Since I'm gonna use OAuth and I'm planning to design an adapter layer, any new service should be quite easy to be written on the list.
+Basically, your friends on SNS. Since I'm in China, I will start by supporting two major Chinese service providers, namely "RenRen" and "Weibo". Since I'm gonna use OAuth and I'm planning to design an adapter layer, any new service should be quite easy to be written on the list. We are turning to a general purpose message delivery system called *paperboy*, which is still under development.
 
 ## Can I design the content that should be shared?
 
