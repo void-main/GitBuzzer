@@ -1,4 +1,4 @@
-# Hub Page Buzzer
+# GitBuzzer
 
 ## A buzzer?
 
